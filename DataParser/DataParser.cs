@@ -41,12 +41,11 @@ namespace DataParser
             var json = string.Empty;
             while (_data.Items.Count > 1)
             {
-                _elapsedSpan = new TimeSpan(_data.Items[1].Ticks - _data.Items[0].Ticks);
-
                 var list = _data.Items.FindAll(e => e.Ticks >= DateTime.Now.Ticks);
+                _elapsedSpan = new TimeSpan(list[0].Ticks - DateTime.Now.Ticks);
 
                 var miliseconds = Convert.ToInt32(_elapsedSpan.TotalMilliseconds);
-                //Thread.Sleep(miliseconds);
+                Thread.Sleep(miliseconds);
 
                 json = new JavaScriptSerializer().Serialize(list[0]);
 
