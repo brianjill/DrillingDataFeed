@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataFeeder", "DataFeeder\DataFeeder.csproj", "{0C0E8EBA-3AE5-4FF8-9BC9-57C3D97A0A1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataParser", "..\DataParser\DataParser.csproj", "{4E4AC415-6FA4-4963-BD0E-D58F8DB3E669}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubVerifier", "..\EventHubVerifier\EventHubVerifier.csproj", "{6DC0A77A-1673-483F-B035-FE2496369344}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C0E8EBA-3AE5-4FF8-9BC9-57C3D97A0A1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0E8EBA-3AE5-4FF8-9BC9-57C3D97A0A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0E8EBA-3AE5-4FF8-9BC9-57C3D97A0A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0E8EBA-3AE5-4FF8-9BC9-57C3D97A0A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4AC415-6FA4-4963-BD0E-D58F8DB3E669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4AC415-6FA4-4963-BD0E-D58F8DB3E669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4AC415-6FA4-4963-BD0E-D58F8DB3E669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4AC415-6FA4-4963-BD0E-D58F8DB3E669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DC0A77A-1673-483F-B035-FE2496369344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC0A77A-1673-483F-B035-FE2496369344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC0A77A-1673-483F-B035-FE2496369344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC0A77A-1673-483F-B035-FE2496369344}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

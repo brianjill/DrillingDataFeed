@@ -1,0 +1,10 @@
+D:\Users\bsarandi\Documents\GitHub\DrillingDataFeed\DataFeeder\DataFeeder\bin\Debug\DataFeeder.exe.config
+D:\Users\bsarandi\Documents\GitHub\DrillingDataFeed\DataFeeder\DataFeeder\obj\Debug\DataFeeder.csprojResolveAssemblyReference.cache
+D:\Users\bsarandi\Documents\GitHub\DrillingDataFeed\DataFeeder\DataFeeder\bin\Debug\DataFeeder.exe
+D:\Users\bsarandi\Documents\GitHub\DrillingDataFeed\DataFeeder\DataFeeder\bin\Debug\DataFeeder.pdb
+D:\Users\bsarandi\Documents\GitHub\DrillingDataFeed\DataFeeder\DataFeeder\bin\Debug\DataParser.dll
+D:\Users\bsarandi\Documents\GitHub\DrillingDataFeed\DataFeeder\DataFeeder\bin\Debug\DataParser.pdb
+D:\Users\bsarandi\Documents\GitHub\DrillingDataFeed\DataFeeder\DataFeeder\obj\Debug\DataFeeder.exe
+D:\Users\bsarandi\Documents\GitHub\DrillingDataFeed\DataFeeder\DataFeeder\obj\Debug\DataFeeder.pdb
+D:\Users\bsarandi\Documents\GitHub\DrillingDataFeed\DataFeeder\DataFeeder\bin\Debug\Microsoft.ServiceBus.dll
+D:\Users\bsarandi\Documents\GitHub\DrillingDataFeed\DataFeeder\DataFeeder\bin\Debug\Microsoft.ServiceBus.xml

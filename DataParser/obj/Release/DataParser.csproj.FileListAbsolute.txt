@@ -1,0 +1,8 @@
+D:\jill\RTI\RealTimeDataFeeder\DataParser\bin\Release\DataParser.dll.config
+D:\jill\RTI\RealTimeDataFeeder\DataParser\bin\Release\DataParser.dll
+D:\jill\RTI\RealTimeDataFeeder\DataParser\bin\Release\DataParser.pdb
+D:\jill\RTI\RealTimeDataFeeder\DataParser\bin\Release\System.Data.SqlServerCe.dll
+D:\jill\RTI\RealTimeDataFeeder\DataParser\bin\Release\System.Data.SqlServerCe.Entity.dll
+D:\jill\RTI\RealTimeDataFeeder\DataParser\bin\Release\System.Web.DataVisualization.dll
+D:\jill\RTI\RealTimeDataFeeder\DataParser\obj\Release\DataParser.dll
+D:\jill\RTI\RealTimeDataFeeder\DataParser\obj\Release\DataParser.pdb
