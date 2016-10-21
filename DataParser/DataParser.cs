@@ -33,12 +33,30 @@ namespace DataParser
             _data.Parse();
         }
 
+        public List<Item> GetItems()
+        {
+            return _data.Items;
+        }
+
+        public string TranformToJson(int index)
+        {
+            if (index >= _data.Items.Count) return string.Empty; 
+
+            var json = new JavaScriptSerializer().Serialize(_data.Items[index]);
+
+            if (_data.GetType().ToString().Contains("Dynamic"))
+                json = json.Replace(@"""Properties"":{", String.Empty).Replace("},", ",");
+
+            return json;
+        }
+
         public string TransformToJson()
         {
             if (_data.Items == null) return string.Empty;
             if (_data.Items.Count < 1) return string.Empty;
             
             var json = string.Empty;
+            
             while (_data.Items.Count > 1)
             {
                 var list = _data.Items.FindAll(e => e.Ticks >= DateTime.Now.Ticks);
@@ -54,6 +72,7 @@ namespace DataParser
 
                 return json;
             }
+            
             return json;
         }
     }
